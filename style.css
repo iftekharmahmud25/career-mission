@@ -110,3 +110,137 @@ body{
     margin-left: 50px;
     margin-top: 10px;
 }
+
+.why-web-text{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    box-shadow: 10px 10px 20px;
+    border-radius: 15px;
+
+}
+
+.coding-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #C6DBFF;
+    
+    
+margin-top: 100px;   
+
+    
+}
+.coding-text{
+    width: 50%;
+    
+}
+
+.btn{
+     padding: 10px;
+     background-color: #FFA500;
+     border: none;
+     border-radius: 10px;
+     margin-top: 10px;
+}
+
+.inspiration-section {
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  padding: 80px 20px;
+  text-align: center;
+  color: #003366;
+}
+.inspiration-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.inspiration-section p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Login Section */
+.login-section {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+ background-color: #C6DBFF;
+
+ 
+}
+.login-form {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  max-width: 400px;
+  width: 100%;
+ 
+}
+.login-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.login-form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 500;
+}
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0077cc;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.login-form button:hover {
+  background-color: #005fa3;
+}
+.form-footer {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+.form-footer a {
+  color: #0077cc;
+  text-decoration: none;
+}
+.form-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.page-footer {
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 60px;
+}
+.page-footer .footer-links {
+  margin-top: 10px;
+}
+.page-footer a {
+  color: #a7c7e7;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.page-footer a:hover {
+  text-decoration: underline;
+}
